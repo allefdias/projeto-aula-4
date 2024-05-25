@@ -1,0 +1,98 @@
+body {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #eceff8;
+}
+
+.kanban-board {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    width: 15%;
+    padding: 10px;
+    background-color: #eceff8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(20, 94, 190);
+    
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: grab;
+    transition: all 0.5s;
+    
+}
+
+.card:active {
+    cursor: grabbing;
+}
+
+.card-content {
+    margin-right: 30px;
+}
+.card:hover {
+ border: #006fff 2px solid;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #280fca;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.hide {
+    display: none;
+}
+button:hover {
+    background-color: #148138;
+    transition: all 0.3s;
+    transform: translateY(-2px);
+    color: #000000;
+}
+  
+button:active {
+    background-color: #03fa38;
+    transition: all 0.1s;
+}
