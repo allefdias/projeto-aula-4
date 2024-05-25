@@ -62,31 +62,33 @@ button:hover {
 }
 
 .delete-btn {
-    position: absolute;
+    position:absolute;
     top: 5px;
     right: 5px;
     background-color: #dc3545;
     color: white;
     border: none;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 20px;
     text-align: center;
     padding: 0;
+    box-shadow: 0 0 5px rgb(64, 67, 71);
 }
 
 .delete-btn:hover {
     background-color: #c82333;
+    box-shadow: 0 0 10px rgb(224, 70, 70);
 }
 
 .hide {
     display: none;
 }
 button:hover {
-    background-color: #148138;
+    background-color: #2c9b51;
     transition: all 0.3s;
     transform: translateY(-2px);
     color: #000000;
@@ -95,4 +97,50 @@ button:hover {
 button:active {
     background-color: #03fa38;
     transition: all 0.1s;
+}
+.form-input {
+    width: 100%; 
+    margin: 10px;
+    background-color: #d4eaf8;
+    color: #2d3748;
+    border: 0;
+    border-radius: 0.375rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.form-input:focus {
+    background-color: #edf2f7;
+    outline: none;
+    box-shadow: 0 0 0 1px #3182ce;
+}
+
+p{
+    margin-left: 10px;
+    height: 0px;
+}
+
+.card-blue {
+    background-color: rgb(6, 146, 240);
+}
+
+.card-green {
+    background-color: rgb(44, 128, 44);
+}
+
+.card-yellow {
+    background-color: rgb(223, 223, 77);
+}
+
+.card-orange {
+    background-color: rgb(177, 123, 24);
+}
+
+.card-red {
+    background-color: rgb(182, 46, 46);
+}
+
+.card-white {
+    background-color: rgb(255, 255, 255);
 }
